@@ -1,0 +1,146 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    cursor: default;
+    font-family: AR DESTINE;
+    overflow: auto;
+    transition-duration: 1s;
+    text-align: center;
+    background: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div{
+    left: 0;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+nav{
+    background: black;
+    color: white;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+li{
+    width: 30%;
+    text-align: center;
+    padding: 7px;
+    margin: auto;
+}
+ul{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    font-size: 2em;
+    padding: 10px 20px;
+    background: transparent;
+    border: solid orangered;
+    color: orange;
+    border-radius: 15px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+button:hover{
+    color: darkblue;
+    background: orange;
+}
+.pointerChange{
+    cursor: pointer;
+    padding: 10px;
+    transition-duration: 1s;
+}
+.changeColor:hover{
+    font-size: 1.2em;
+    border: solid lightcoral;
+}
+
+#navBar{
+    width: 100%;
+    overflow: auto;
+}
+#gameName{
+    color: chartreuse;
+    padding-top: 7%; 
+}
+#userName, #highScore, #logOut{
+    float: left;
+}
+
+#mainGame > div{
+    float: left;
+}
+#gameOptions{
+    margin-top: 7%;
+    display: block;
+}
+#optionList{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2em;
+    color: orange;
+}
+#optionList > li{
+    width: 100%;
+}
+.buttonHolder{
+    width: 20%;
+}
+
+#box_1{
+    background: red;
+}
+#box_2{
+    background: lightseagreen;
+}
+#box_3{
+    background: brown;
+}
+#box_4{
+    background: seagreen;
+}
+#box_5{
+    background: purple;
+}
+#box_6{
+    background: grey;
+}
+#box_7{
+    background: yellow;
+}
+#box_8{
+    background: darkblue;
+}
+#box_9{
+    background: deeppink;
+}
+.colorBox{
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#mainGame{
+    margin-top: 7%;
+}
+#gameHolder{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+#gameHolder > table{
+    margin: 0 auto;
+}
+#mainGame{
+    display: none;
+}
